@@ -30,13 +30,13 @@ const Hero = styled.div`
   }
 
   p {
-    font-size: 1.68rem;
-    margin-top: -1rem;
+    font-size: 1.2rem;
+    margin-top: 1rem;
     @media (max-width: ${props => props.theme.breakpoints.tablet}) {
-      font-size: 1.45rem;
+      font-size: 1.1rem;
     }
     @media (max-width: ${props => props.theme.breakpoints.phone}) {
-      font-size: 1.25rem;
+      font-size: 1rem;
     }
   }
 `
@@ -51,26 +51,23 @@ const IndexPage = ({
       <Hero>
         <h1>Isomorphic Graph Architecture</h1>
         <p>
-          It's time to rethink our Database and API technologies. The future of
-          software is in graphs.
+          Future software will be more intelligent, multi-interface, capable and
+          interconnected. Isomorphic Graph Architecture is a software stack
+          built around the mathematical graph structure. It combines the power
+          of Graph Databases and the versatility of GraphQL to enable next
+          generation software to unlock the power of complex data models and tap
+          into the rich information hidden in the connections within our data.
         </p>
         <p>
-          By combining the power of Graph Databases with the versatility of
-          GraphQL, we will be able to build highly interconnected, intelligent
-          and capable software for the future.
-        </p>
-        <p>
-          This page was created by{" "}
+          This site was created by{" "}
           <a href="https://linkedin.com/in/zakmandhro">Zak Mandhro</a> to
-          promote the idea of building next generation software using Graph
-          concepts and core Graph technologies.
-          <div style={{ paddingTop: 16, fontSize: 20 }}>
-            This site built using GraphQL - powered by{" "}
-            <a href="https://gatsbyjs.org">Gatsby</a> and{" "}
-            <a href="https://netlify.com">Netlify</a>.
+          promote the idea of building next generation software using Isomorphic
+          Graph Architecture.
+          <div style={{ paddingTop: 16, fontSize: 16 }}>
+            Built using GraphQL with <a href="https://gatsbyjs.org">Gatsby</a>.
           </div>
         </p>
-        <Link to="https://linkedin.com/in/zakmandhro">
+        <a href="https://linkedin.com/in/zakmandhro">
           <Button big>
             <svg
               width="1792"
@@ -82,7 +79,7 @@ const IndexPage = ({
             </svg>
             Get In Touch
           </Button>
-        </Link>
+        </a>
       </Hero>
       <Content>
         <SectionTitle>Graph Technology Resources</SectionTitle>

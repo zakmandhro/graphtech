@@ -1,10 +1,10 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import styled, { ThemeProvider, createGlobalStyle } from 'styled-components'
+import React from "react"
+import PropTypes from "prop-types"
+import styled, { ThemeProvider, createGlobalStyle } from "styled-components"
 
-import SEO from './SEO'
-import theme from '../../config/theme'
-import useBuildTime from '../hooks/useBuildTime'
+import SEO from "./SEO"
+import theme from "../../config/theme"
+import useBuildTime from "../hooks/useBuildTime"
 
 const GlobalStyle = createGlobalStyle`
   *,
@@ -204,8 +204,7 @@ const Layout = ({ children, customSEO }) => {
         <GlobalStyle />
         {children}
         <Footer>
-          &copy; 2019 by John Doe. All rights reserved. <br />
-          <a href="https://github.com/LekoArts/gatsby-starter-minimal-blog">GitHub Repository</a> <br />
+          &copy; 2019 by Zak Mandhro. All rights reserved. <br />
           <span>Last build: {buildTime}</span>
         </Footer>
       </>
@@ -217,9 +216,9 @@ export default Layout
 
 Layout.propTypes = {
   children: PropTypes.oneOfType([PropTypes.array, PropTypes.node]).isRequired,
-  customSEO: PropTypes.bool,
+  customSEO: PropTypes.bool
 }
 
 Layout.defaultProps = {
-  customSEO: false,
+  customSEO: false
 }

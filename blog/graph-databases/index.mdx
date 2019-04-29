@@ -1,0 +1,41 @@
+---
+date: "2018-04-28"
+title: "Top 3 Graph Databases"
+categories:
+  - Database
+---
+
+Google, Facebook, Twitter, LinkedIn, Amazon and money others had to build Graph data structures using custom solutions, often built on top of relational databases and key-value stores. They had to develop Graph traversals and query execution optimizations by hand. Fortunately for us, we can build on one of many great commercial and open source options.
+
+If you are new to Graph Technology, I recommend reviewing these resources:
+
+- [Graph Database Use Cases](https://neo4j.com/use-cases/)
+- [Graph Database 101 Video](https://www.youtube.com/watch?v=vJcxRjJ982k)
+
+Here is a list of top three Graph Databases available today. For a full list, check out [DB Engines's Graph Database rankings](https://db-engines.com/en/ranking/graph+dbms).
+
+### Neo4j
+
+The 10-year old Neo4j is the most popular graph database out there. It is open-source and built with Java and Scala. Neo4j supports a wide range of graph querying languages, including Apache TinkerPop and Cypher (SparQL available as plug-in). It also comes with an [Object Graph Mapper](https://github.com/neo4j/neo4j-ogm) for Java to make it easier for developers to build and query graphs.
+
+The [Neo4j website](http://neo4j.com) is a great resource not only for learning about team has done a great job of documenting use cases and case studies of graph databses.
+
+### Neptune by Amazon Web Services
+
+Nepture is a full-hosted Graph Database from Amazon Web Services. It supports popular graph models and query languages TinkerPop and SPARQL. Being part of AWS gives Nepture several advantages over running your graph database on-premise. You get distributed data storage, back up to S3, ease and automation through AWS APIs, and more.
+
+If you already an AWS customer, this is a great place to start building your first graph database. Learn more at the [Neptune AWS website](https://aws.amazon.com/neptune/).
+
+### Cosmos DB by Microsoft Azure
+
+Cosmos DB is Microsoft's globally distributed, multi-model database - available on Microsoft Azure. A multi-model database typically supports relational, document, and graph structures. You can query the different models of the database through the respective query and manipulation language, e.g. SQL, MongoDB, Casandra and TinkerPop (for graph).
+
+Learn more about [Cosmos DB on Microsoft Azure](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction).
+
+### Honorable Mentions
+
+- [ArangoDB](https://www.arangodb.com/) is a great open-source multi-model database, with an innovative AQL language that works across relational and graph database. Build in C/C++ for high-performance.
+
+- [OrientDB](https://orientdb.com/) is another excellent multi-model database. It comes with it's own OQL language for multi-model querying. Built in Java.
+
+- [Dgraph](https://dgraph.io) is a unique Graph database that is extremely light weight and high throughput. It uses a variant of GraphQL as it's query language. Dgraph achieves it's scale and efficiency by being built in Go.
