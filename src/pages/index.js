@@ -56,8 +56,7 @@ const IndexPage = ({
           Isomorphic Graph Architecture is a software stack built around the
           mathematical graph structure. It combines the power of Graph Databases
           and the versatility of GraphQL to enable next generation software to
-          unlock the power of the rich information hidden in our interconnected
-          data.
+          unlock the rich information hidden in our interconnected data.
         </p>
         <p>
           This site was created by{" "}
