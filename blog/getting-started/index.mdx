@@ -1,0 +1,48 @@
+---
+date: "2018-05-02"
+title: "Getting started with Graph Technology"
+categories:
+  - Book
+  - Tutorial
+---
+
+It's 2019 and Graph Technology is in full swing. Gartner places Graph as the [Top 5 Data Trends of 2019](https://www.gartner.com/en/newsroom/press-releases/2019-02-18-gartner-identifies-top-10-data-and-analytics-technolo). There are two key architecture components within Graph Technology: Graph Databases - to store connected data, and GraphQL - for building versatile APIs that can leverage connected data. Both of these technologies have gained tremendous popularity and adoption over the last couple of years. According to DB Engines, Graph Databases have grown more than [1,000 times since 2013](https://db-engines.com/en/ranking_categories). Google Cloud team identifies GraphQL as one of the [most impactful trends for APIs in 2019](https://cloud.google.com/blog/products/api-management/the-year-ahead-in-apis).
+
+Although GraphQL and Graph Databases can be used independently, combining the two technologies unlocks a whole new level of agility, performance and data insights. I refer to this combination as **Isomorphic Graph Technology** and I am passionate about sharing the knowledge and experience my team and I are gaining in implementing this architecture over multiple startups.
+
+There are plenty of good resources to learn about GraphQL and Graph Databases. Here are my top picks:
+
+- [GraphQL Introduction](https://graphql.org/learn/)
+- [Road to GraphQL - Free eBook](https://roadtoreact.com/course-details?courseId=THE_ROAD_TO_GRAPHQL)
+- [O'Reilly Graph Databases - Free eBook (Courtesy of Neo4j)](https://neo4j.com/graph-databases-book/)
+- [Graph Database Use Cases](https://neo4j.com/use-cases/)
+- [Graph Databases for Beginners - Free eBook from Neo4j](https://neo4j.com/whitepapers/graph-databases-beginners-ebook/)
+- [Graph Database 101 Video](https://www.youtube.com/watch?v=vJcxRjJ982k)
+
+Here is a list of top three Graph Databases available today. For a full list, check out [DB Engines's Graph Database rankings](https://db-engines.com/en/ranking/graph+dbms).
+
+### Neo4j
+
+The 10-year old Neo4j is the most popular graph database out there. It is open-source and built with Java and Scala. Neo4j supports a wide range of graph querying languages, including Apache TinkerPop and Cypher (SparQL available as plug-in). It also comes with an [Object Graph Mapper](https://github.com/neo4j/neo4j-ogm) for Java to make it easier for developers to build and query graphs.
+
+The [Neo4j website](http://neo4j.com) is a great resource not only for learning about team has done a great job of documenting use cases and case studies of graph databases.
+
+### Neptune by Amazon Web Services
+
+Nepture is a full-hosted Graph Database from Amazon Web Services. It supports popular graph models and query languages TinkerPop and SPARQL. Being part of AWS gives Nepture several advantages over running your graph database on-premise. You get distributed data storage, back up to S3, ease and automation through AWS APIs, and more.
+
+If you already an AWS customer, this is a great place to start building your first graph database. Learn more at the [Neptune AWS website](https://aws.amazon.com/neptune/).
+
+### Cosmos DB by Microsoft Azure
+
+Cosmos DB is Microsoft's globally distributed, multi-model database - available on Microsoft Azure. A multi-model database typically supports relational, document, and graph structures. You can query the different models of the database through the respective query and manipulation language, e.g. SQL, MongoDB, Casandra and TinkerPop (for graph).
+
+Learn more about [Cosmos DB on Microsoft Azure](https://docs.microsoft.com/en-us/azure/cosmos-db/introduction).
+
+### Honorable Mentions
+
+- [ArangoDB](https://www.arangodb.com/) is a great open-source multi-model database, with an innovative AQL language that works across relational and graph database. Build in C/C++ for high-performance.
+
+- [OrientDB](https://orientdb.com/) is another excellent multi-model database. It comes with it's own OQL language for multi-model querying. Built in Java.
+
+- [Dgraph](https://dgraph.io) is a unique Graph database that is extremely light weight and high throughput. It uses a variant of GraphQL as it's query language. Dgraph achieves it's scale and efficiency by being built in Go.
